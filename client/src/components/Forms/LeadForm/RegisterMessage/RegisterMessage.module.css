@@ -1,0 +1,18 @@
+.modalMessage {
+    /*Position and width*/
+    position: fixed;
+    width: 75%;
+    height: fit-content;
+    
+    /*NOTE: If you want your modal's position to be absolute or fixed, you should also include:*/
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    /*Centering horizintally*/
+    margin: 5px 10%;
+    background-color: transparent;
+    /*Purely visual stuff*/
+
+  }

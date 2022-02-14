@@ -1,0 +1,46 @@
+.formBox{
+    margin: 20px 10px;
+    padding: 10px;
+    box-shadow: 0px 4px 20.9px 3.1px rgb(13 13 13 / 43%);
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    /* border: 2px solid red; */
+}
+
+.formTitle{
+    padding: 30px ;
+    margin: 5px 0px;
+    font-size: 24px;
+    text-align: center; 
+    text-transform: uppercase;
+    background-color: rgba(112, 57, 176);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    padding: 30px 13px;
+    font-size: 32px;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.formBody{
+    padding: 0px;
+    margin: 5px;
+    /* border: 2px solid green; */
+}
+
+.formcontrol{
+    /* border: 2px solid green; */
+    margin: 10px auto;
+    width: 100% ;
+    min-width: 220px ;
+    max-width: 800px ;
+}
+
+.formgroup{
+    /* border: 2px solid brown; */
+    width: 100%;
+}

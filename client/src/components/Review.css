@@ -1,0 +1,33 @@
+.Review{
+    /* border: 2px solid red; */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+}
+
+.Review img{
+    width: 50vw;
+    height: 12vh;
+    margin: 20px auto;
+    box-shadow: 5px 6px 25px -4px rgba(0,0,0,0.75);
+-webkit-box-shadow: 5px 6px 25px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px 6px 25px -4px rgba(0,0,0,0.75);
+}
+
+.Review h1{
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:900px){
+    .Review h1{
+        text-align: center;
+        padding: 10px 10px;
+    }
+    .Review img{
+        width: 90vw;
+        height: 8vh;
+    }
+}

@@ -1,0 +1,14 @@
+.phoneContainer{
+  margin: 5px;
+}
+
+.phoneBtn{
+  margin: 5px;
+  padding: 5px;
+}
+
+.phoneError{
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}

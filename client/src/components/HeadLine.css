@@ -1,0 +1,14 @@
+.HeadLine_h1{
+    background: url('../components/images/background_img.png');
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+@media screen and (max-width:900px) {
+    .HeadLine_h1{
+        font-size: 20px;
+    }
+    
+}

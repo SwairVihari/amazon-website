@@ -1,0 +1,55 @@
+{
+  "name": "cheap-phones",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "bot-inspector": "^1.0.5",
+    "concurrently": "^5.3.0",
+    "config": "^3.3.2",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-device": "^0.4.2",
+    "express-useragent": "^1.0.15",
+    "express-validator": "^6.6.1",
+    "geoip-lite": "^1.4.2",
+    "geoip-lite-country-only": "^1.0.1",
+    "json-web-token": "^3.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.12",
+    "nodemon": "^2.0.6",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "react-animated-css": "^1.2.1",
+    "react-hotjar": "^2.2.1",
+    "request": "^2.88.2",
+    "request-country": "^0.1.5",
+    "twilio": "^3.53.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "app": "nodemon index.js",
+    "client": "cd client && npm run start",
+    "server": "nodemon index.js",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "react-scripts build",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thornebird/saveblog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thornebird/saveblog/issues"
+  },
+  "homepage": "https://github.com/thornebird/saveblog#readme"
+}
